@@ -8,7 +8,24 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        <div className="cardHolder">
+
+        <div id="Title">
+          <Card />
+        </div>
+
+        <div id="About">
+          <Card />
+        </div>
+
+        <div id="Resume">
+          <Card />
+        </div>
+
+        <div id="Projects">
+          <Card />
+        </div>
+
+        <div id="Other">
           <Card />
         </div>
 
