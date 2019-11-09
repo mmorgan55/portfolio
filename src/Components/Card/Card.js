@@ -4,11 +4,14 @@ import "./Card.css";
 const Card = (props) => {
   return (
     <div className="card">
-      <h1>
-        Example text.
-      </h1>
+      <head>
+        <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet"/>
+      </head>
+        <h1>
+          {props.text}
+        </h1>
     </div>
-  );
-}
-
+      );
+    }
+    
 export default Card

@@ -10,27 +10,31 @@ class App extends React.Component {
       <div className="App">
 
         <div id="Title">
-          <Card />
+          <Card text={"Matthew Morgan Portfolio"}/>
         </div>
 
         <div id="About">
-          <Card />
+          <Card text={"About Me"}/>
         </div>
 
         <div id="Resume">
-          <Card />
+          <Card text={"Resume"}/>
         </div>
 
         <div id="Projects">
-          <Card />
+          <Card text={"Projects"}/>
         </div>
 
         <div id="Other">
-          <Card />
+          <Card text={"Other"}/>
         </div>
 
       </div>
     );
+
+  }
+
+  onMouseEnterEvent() {
 
   }
 
