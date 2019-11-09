@@ -9,23 +9,23 @@ class App extends React.Component {
     return (
       <div className="App">
 
-        <div id="Title" className="cardTransform">
+        <div id="Title">
           <Card text={"Matthew Morgan Portfolio"}/>
         </div>
 
-        <div id="About" className="cardTransform">
+        <div id="About">
           <Card text={"About Me"}/>
         </div>
 
-        <div id="Resume" className="cardTransform">
+        <div id="Resume">
           <Card text={"Resume"}/>
         </div>
 
-        <div id="Projects" className="cardTransform">
+        <div id="Projects">
           <Card text={"Projects"}/>
         </div>
 
-        <div id="Other" className="cardTransform">
+        <div id="Other">
           <Card text={"Other"}/>
         </div>
 

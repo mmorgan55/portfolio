@@ -1,16 +1,22 @@
 h1 {
-    font-size: larger;
-    font-family: fantasy;
-    text-align: center;
-    vertical-align: middle;
+  font-size: 72;
+  font-family: fantasy;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .card {
-    display: grid;
-    height: 100%;
-    width: 100%;
-    border-radius: 15px;
-    box-shadow: -5px 5px 5px 5px gainsboro ;
-    background-color: silver;
-   
+  display: grid;
+  height: 100%;
+  width: 100%;
+  background-color: silver;
+  transform: scale(1);
+  transition: .2s;
+}
+
+.card:hover {
+  transform: scale(1.2);
+  transition: .2s;
+  box-shadow: -2px 5px 15px 2px black;
+  
 }
