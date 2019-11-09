@@ -3,8 +3,7 @@
   max-height: auto;
   max-width: auto;
   background-color: rgba(100, 100, 225, 0.5);
-  background-image: url("https://www.transparenttextures.com/patterns/escheresque-dark.png"), 
-                    radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(111,103,104,1) 97%);
+  background-image: url("https://www.transparenttextures.com/patterns/type.png"), radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(157,151,152,1) 62%);
   column-gap: 25px;
   row-gap: 25px;
   grid-template-columns: repeat(9, 1fr);
