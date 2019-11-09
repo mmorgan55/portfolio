@@ -5,7 +5,7 @@ const Card = (props) => {
   return (
     <div className="card">
       <h1>
-        Example text.
+        {props.text}
       </h1>
     </div>
   );

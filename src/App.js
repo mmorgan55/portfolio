@@ -9,28 +9,32 @@ class App extends React.Component {
     return (
       <div className="App">
 
-        <div id="Title">
-          <Card />
+        <div id="Title" className="cardTransform">
+          <Card text={"Matthew Morgan Portfolio"}/>
         </div>
 
-        <div id="About">
-          <Card />
+        <div id="About" className="cardTransform">
+          <Card text={"About Me"}/>
         </div>
 
-        <div id="Resume">
-          <Card />
+        <div id="Resume" className="cardTransform">
+          <Card text={"Resume"}/>
         </div>
 
-        <div id="Projects">
-          <Card />
+        <div id="Projects" className="cardTransform">
+          <Card text={"Projects"}/>
         </div>
 
-        <div id="Other">
-          <Card />
+        <div id="Other" className="cardTransform">
+          <Card text={"Other"}/>
         </div>
 
       </div>
     );
+
+  }
+
+  onMouseEnterEvent() {
 
   }
 
