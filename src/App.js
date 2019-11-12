@@ -1,40 +1,25 @@
 import React from 'react';
 import './App.css';
-import Card from "./Components/Card/Card"
+import Card from "./Components/Card/Card";
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
+import Home from "./Components/Home/Home"
 
 class App extends React.Component {
 
   render() {
 
     return (
-      <div className="App">
-
-        <div id="Title">
-          <Card text={"Matthew Morgan Portfolio"}/>
+      <Router>
+        <div>
+          <Switch>
+            <Route path="/" exact component={Home}></Route>
+            <Route></Route>
+            <Route></Route>
+            <Route></Route>
+          </Switch>
         </div>
-
-        <div id="About">
-          <Card text={"About Me"}/>
-        </div>
-
-        <div id="Resume">
-          <Card text={"Resume"}/>
-        </div>
-
-        <div id="Projects">
-          <Card text={"Projects"}/>
-        </div>
-
-        <div id="Other">
-          <Card text={"Other"}/>
-        </div>
-
-      </div>
+      </Router>
     );
-
-  }
-
-  onMouseEnterEvent() {
 
   }
 
