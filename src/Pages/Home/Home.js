@@ -1,7 +1,6 @@
 import React from 'react'
 import './Home.css'
-import Card from "../Card/Card"
-import Container from "react-bootstrap/Container"
+import Card from "../../Components/Card/Card"
 
 const Home = (props) => {
 
