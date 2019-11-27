@@ -1,6 +1,6 @@
-import React from 'react'
-import './Home.css'
-import Card from "../../Components/Card/Card"
+import React from 'react';
+import './Home.css';
+import Card from "../../Components/Card/Card";
 
 const Home = (props) => {
 
@@ -24,7 +24,7 @@ const Home = (props) => {
       </div>
 
       <div id="Other">
-        <Card text={"Other"} />
+        <Card text={"Contact"} />
       </div>
 
     </div>
