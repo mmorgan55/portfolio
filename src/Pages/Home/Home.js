@@ -1,6 +1,5 @@
 import React from 'react';
 import './Home.css';
-import Card from "../../Components/Card/Card";
 
 const Home = (props) => {
 
@@ -8,23 +7,23 @@ const Home = (props) => {
     <div className="Home">
     
       <div id="Title">
-        <Card text={"Matthew Morgan Portfolio"} />
+        {/* <CardPort text={"Matthew Morgan Portfolio"} /> */}
       </div>
 
       <div id="About">
-        <Card text={"About Me"} />
+        {/* <CardPort text={"About Me"} /> */}
       </div>
 
       <div id="Resume">
-        <Card text={"Resume"} />
+        {/* <CardPort text={"Resume"} /> */}
       </div>
 
       <div id="Projects">
-        <Card text={"Projects"} />
+        {/* <CardPort text={"Projects"} /> */}
       </div>
 
       <div id="Other">
-        <Card text={"Contact"} />
+        {/* <CardPort text={"Contact"} /> */}
       </div>
 
     </div>
