@@ -1,43 +1,33 @@
 import React from 'react';
-import './App.css';
-import Card from "./Components/Card/Card"
+// import './App.css';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from "./Pages/Home/Home";
+import About from "./Pages/About/About";
+import Projects from "./Pages/Projects/Projects";
+import Resume from "./Pages/Resume/Resume";
+import Contact from "./Pages/Contact/Contact";
+import { NavigationBar } from "./Components/NavigationBar/NavigationBar"
+import { Layout } from './Components/Layout/Layout';
 
 class App extends React.Component {
-
   render() {
-
     return (
-      <div className="App">
-
-        <div id="Title">
-          <Card text={"Matthew Morgan Portfolio"}/>
-        </div>
-
-        <div id="About">
-          <Card text={"About Me"}/>
-        </div>
-
-        <div id="Resume">
-          <Card text={"Resume"}/>
-        </div>
-
-        <div id="Projects">
-          <Card text={"Projects"}/>
-        </div>
-
-        <div id="Other">
-          <Card text={"Other"}/>
-        </div>
-
-      </div>
+      <React.Fragment>
+        <Router>
+          <NavigationBar />
+          <Layout>
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route path="/about" component={About} />
+              <Route path="/projects" component={Projects} />
+              <Route path="/contact" component={Contact} />
+              <Route path="/resume" component={Resume} />
+            </Switch>
+          </Layout>
+        </Router>
+      </React.Fragment>
     );
-
   }
-
-  onMouseEnterEvent() {
-
-  }
-
 }
 
 export default App;

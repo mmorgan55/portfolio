@@ -1,0 +1,34 @@
+import React from 'react';
+import './Home.css';
+import Card from "../../Components/Card/Card";
+
+const Home = (props) => {
+
+  return (
+    <div className="Home">
+    
+      <div id="Title">
+        <Card text={"Matthew Morgan Portfolio"} />
+      </div>
+
+      <div id="About">
+        <Card text={"About Me"} />
+      </div>
+
+      <div id="Resume">
+        <Card text={"Resume"} />
+      </div>
+
+      <div id="Projects">
+        <Card text={"Projects"} />
+      </div>
+
+      <div id="Other">
+        <Card text={"Contact"} />
+      </div>
+
+    </div>
+  );
+}
+
+export default Home
