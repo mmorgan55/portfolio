@@ -4,19 +4,19 @@ import Image from 'react-bootstrap/Image'
 import "./About.css";
 
 const About = () => {
-    return(
+    return (
         <div className="AboutMePage">
-            <Card id="AboutMeText">
-                <Card.Title>
-                    ABOUT ME
-                </Card.Title>
-                <Card.Body>
-                    About me text shall go here at some point in the near future.
-                </Card.Body>
+            <Card id="AboutMeImage">
+                <Image src="https://scx2.b-cdn.net/gfx/news/hires/2019/redwhitebutr.jpg" fluid thumbnail/>
             </Card>
 
-            <Card id="AboutMeImage">
-                <Image src="https://scx2.b-cdn.net/gfx/news/hires/2019/redwhitebutr.jpg" fluid />
+            <Card id="AboutMeText">
+                <Card.Title style={{textAlign: 'center',  fontSize: '48px'}}>
+                    ABOUT ME
+                </Card.Title>
+                <Card.Body style={{fontSize: '20px'}}>
+                    About me text shall go here at some point in the near future.
+                </Card.Body>
             </Card>
         </div>
     );
