@@ -21,7 +21,7 @@ export const NavigationBar = () => {
   return (
     <Styles>
       <Navbar expand="lg">
-        <Navbar.Brand href="/">Something</Navbar.Brand>
+        <Navbar.Brand href="/">Matthew Morgan Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
