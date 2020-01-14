@@ -1,5 +1,5 @@
 import React from 'react';
-// import './App.css';
+import './App.css';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
@@ -15,15 +15,13 @@ class App extends React.Component {
       <React.Fragment>
         <Router>
           <NavigationBar />
-          <Layout>
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/about" component={About} />
-              <Route path="/projects" component={Projects} />
-              <Route path="/contact" component={Contact} />
-              <Route path="/resume" component={Resume} />
-            </Switch>
-          </Layout>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/resume" component={Resume} />
+          </Switch>
         </Router>
       </React.Fragment>
     );
