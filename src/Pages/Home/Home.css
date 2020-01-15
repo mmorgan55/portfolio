@@ -1,14 +1,11 @@
 .Home {
     display: grid;
-    max-height: auto;
-    max-width: auto;
     background-color: rgba(100, 100, 225, 0.5);
-    background-image: url("https://www.transparenttextures.com/patterns/type.png"), radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(157,151,152,1) 62%);
+    /* background-image: url("https://www.transparenttextures.com/patterns/type.png"), radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(157,151,152,1) 62%); */
     column-gap: 25px;
     row-gap: 25px;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(7, 1fr);
-    margin: 3rem;
     padding: 2rem;
   }
   
