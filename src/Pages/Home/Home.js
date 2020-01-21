@@ -1,4 +1,7 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
+import Image from 'react-bootstrap/Image';
+import Card from 'react-bootstrap/Card';
 import './Home.css';
 
 const Home = (props) => {
@@ -6,25 +9,32 @@ const Home = (props) => {
   return (
     <div className="Home">
     
-      <div id="Title">
-        {/* <CardPort text={"Matthew Morgan Portfolio"} /> */}
-      </div>
+      <p id="Title">MATTHEW MORGAN</p>
 
-      <div id="About">
-        {/* <CardPort text={"About Me"} /> */}
-      </div>
+      <Image id="HomeImage" src="https://scx2.b-cdn.net/gfx/news/hires/2019/redwhitebutr.jpg" fluid thumbnail />
 
-      <div id="Resume">
-        {/* <CardPort text={"Resume"} /> */}
-      </div>
+      <Card id="IntroCard">
+        <Card.Body>
+          A short quip/introduction of M5. (that's me)
+        </Card.Body>
+      </Card>
 
-      <div id="Projects">
-        {/* <CardPort text={"Projects"} /> */}
-      </div>
+      <Button id="About" variant="primary">
+        About Me
+      </Button>
 
-      <div id="Other">
-        {/* <CardPort text={"Contact"} /> */}
-      </div>
+      <Button id="Resume" variant="primary">
+        Resume
+      </Button>
+
+      <Button id="Projects" variant="primary">
+        Projects
+      </Button>
+
+      <Button id="Contact" variant="primary">
+        Contact
+      </Button>
+
 
     </div>
   );
