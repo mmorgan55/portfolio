@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image';
+import Card from 'react-bootstrap/Card';
 import './Home.css';
 
 const Home = (props) => {
@@ -8,9 +9,15 @@ const Home = (props) => {
   return (
     <div className="Home">
     
-      <p id="Title">HOME PAGE</p>
+      <p id="Title">MATTHEW MORGAN</p>
 
       <Image id="HomeImage" src="https://scx2.b-cdn.net/gfx/news/hires/2019/redwhitebutr.jpg" fluid thumbnail />
+
+      <Card id="IntroCard">
+        <Card.Body>
+          A short quip/introduction of M5. (that's me)
+        </Card.Body>
+      </Card>
 
       <Button id="About" variant="primary">
         About Me
