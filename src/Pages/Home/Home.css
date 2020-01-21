@@ -7,29 +7,48 @@
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(7, 1fr);
     padding: 2rem;
+    max-width: auto;
+    max-height: auto;
   }
   
   #Title {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  #HomeImage {
     grid-column: 3/8;
-    grid-row: 1/2;
+    grid-row: 2/5;
   }
   
   #About {
     grid-column: 2/5;
-    grid-row: 4/5;
+    grid-row: 6/7;
+    font-size: larger;
+    color: #000000;
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(134,134,134,1) 90%);
   }
   
   #Resume {
     grid-column: 6/9;
-    grid-row: 3/4;
+    grid-row: 5/6;
+    font-size: larger;
+    color: #000000;
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(134,134,134,1) 90%);
   }
   
   #Projects {
     grid-column: 2/5;
-    grid-row: 3/4;
+    grid-row: 5/6;
+    font-size: larger;
+    color: #000000;
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(134,134,134,1) 90%);
   }
   
-  #Other {
+  #Contact {
     grid-column: 6/9;
-    grid-row: 4/5;
+    grid-row: 6/7;
+    font-size: larger;
+    color: #000000;
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(134,134,134,1) 90%);
   }
