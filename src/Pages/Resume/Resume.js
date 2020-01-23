@@ -7,6 +7,8 @@ const Resume = () => {
     <div className="Resume">
       <h1 id="Title">MATTHEW MORGAN RESUME</h1>
 
+      <a href="./MorganMatthewResume.pdf" download>Click here to download full Resume.</a>
+
       <Accordion id="ResumeAccordion">
         <Card>
           <Card.Header>
