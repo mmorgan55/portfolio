@@ -9,7 +9,7 @@ const Home = (props) => {
   return (
     <div className="Home">
     
-      <p id="Title">MATTHEW MORGAN</p>
+      <p id="Title">MATTHEW MORGAN PORTFOLIO</p>
 
       <Image id="HomeImage" src="https://scx2.b-cdn.net/gfx/news/hires/2019/redwhitebutr.jpg" fluid thumbnail />
 

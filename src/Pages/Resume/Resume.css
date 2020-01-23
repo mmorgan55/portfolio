@@ -1,0 +1,19 @@
+.Resume {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+    max-width: auto;
+    max-height: auto;
+}
+
+#Title {
+    font-size: 44px;
+    grid-column: 2/8;
+}
+
+#ResumeAccordion {
+    grid-row: 2/4;
+    grid-column: 2/8;
+}
