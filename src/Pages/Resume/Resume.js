@@ -1,11 +1,14 @@
 import React from 'react';
 import "./Resume.css";
 import { Accordion, Card, Button } from 'react-bootstrap';
+import pdf from "./MatthewMorganResume.pdf";
 
 const Resume = () => {
   return (
     <div className="Resume">
       <h1 id="Title">MATTHEW MORGAN RESUME</h1>
+
+      <a id="ResumeDownload" href={pdf} download >Click here to download full Resume.</a>
 
       <Accordion id="ResumeAccordion">
         <Card>
